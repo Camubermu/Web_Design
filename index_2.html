@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Test Diseño Web</title>
+    <link rel="stylesheet" href="styles_2.css">
+    <script defer src="script_2.js"></script>
+</head>
+<body>
+    <main class="main">
+        <header>
+            <h2 class="section__title" style="margin-left: 59px;">
+                NE_PUPYRKA.RU
+            </h2>
+            <button id="open" class="open-menu">Open</button>
+            <nav class="nav-head" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#" style="color: #000000">O HAC</a></li>
+                    <li><a href="#" style="color: #000000">DISCOUNTS</a></li>
+                    <li><a href="#" style="color: #000000">CONTACTS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="section1" class="section section--hero">
+            <h2 class="section__title section__title--hero">
+                Pop it!
+            </h2>
+            <p class="section__description">
+                The best anti-stress toy is endless bubble wrap!
+            </p>
+            <button class="button button--secondary">
+                BUY
+            </button>
+        </section>
+
+
+        <section id="seccion2" style="margin-top: 70px; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <h2 style="text-align: center;">¿What is Pop it?</h2>
+            <p style="text-align: center; margin-top: 10px;">
+                "Pop it" is a game for children, whose process can be compared to popping bubble wrap.
+            </p>
+            <p style="text-align: center; margin-top: 3px;">
+                But unlike movies, pop-its can be pressed "infinitely" with characteristic
+            </p>
+            <p style="text-align: center; margin-top: 3px;">
+                sensations and sounds: simply squeeze dozens of
+            </p>
+            <p style="text-align: center; margin-top: 3px;">
+                silicone bubbles in the opposite direction.
+            </p>
+        </section>
+
+        <section id="seccion3" style="margin-top: 70px; background-color: #cbf3f0; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <h2 style="margin-top: 40px; text-align: center; margin-bottom: 40px; ">¡Choose your Pop it!</h2>
+            <div style="margin-bottom: 50px; display: flex; column-gap: 250px;">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="square.png" alt="Imagen 1" style="width: 150px;">
+                    <p style="text-align: center; margin-top: 7px;">
+                        <b>Multicolored Square.</b>
+                    </p>
+                    <button class="button button--primary">
+                        BUY
+                    </button>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="amongus.png" alt="Imagen 2" style="width: 150px;">
+                    <p style="text-align: center; margin-top: 7px;">
+                        <b>Among Us, marble.</b>
+                    </p>
+                    <button class="button button--primary">
+                        BUY
+                    </button>
+                </div>
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="round.png" alt="Imagen 3" style="width: 150px;">
+                    <p style="text-align: center; margin-top: 7px;">
+                        <b>Multicolor round.</b>
+                    </p>
+                    <button class="button button--primary">
+                        BUY
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="seccion4">
+            <div style="display: flex; background-image: url('bg-grid.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+                <div style="flex: 1;">
+                    <h2 style="text-align: left; margin-left: 55px; margin-top: 140px;">Rules of the game</h2>
+                    <p style="text-align: left; margin-top: 20px; margin-left: 55px;">
+                        Players take turns and press the bubbles. It is imperative to finish
+                    </p>
+                    <p style="text-align: left; margin-top: 3px; margin-left: 55px;">
+                        the row you started. You can press a maximum of 3 bubbles at the same
+                    </p>
+                    <p style="text-align: left; margin-top: 3px; margin-left: 55px;">
+                        time (they must be nearby, you can’t press several bubbles at
+                    </p>
+                    <p style="text-align: left; margin-top: 3px; margin-left: 55px;">
+                        once if they are not right next to each other). The task is to make sure that
+                    </p>
+                    <p style="text-align: left; margin-top: 3px; margin-left: 55px;">
+                        the opponent is the last one to leave. Whoever went last lost!
+                    </p>
+                </div>
+                <div style="flex: 1; text-align: right; margin-right: 40px; margin-top: 50px; margin-bottom: 35px;">
+                <img src="photo.jpg" alt="Photo" style="width: 55%; height: auto; margin-right: 55px">
+                </div>
+            </div>
+        </section>
+        
+        <section id="section5" class="contact section section--header" style="background-color: #cbf3f0; display: flex; flex-direction: column; justify-content: center; align-items: center">
+            <div class="u-wrapper">
+                <div class="contact-content">
+                    <form id="form" action="" class="form" style="text-align: center; max-width: 400px; margin: 0 auto;">
+                        <h4 class="tag" style="margin-top: 25px; margin-bottom: 25px"><span>Quote your buy in bulk</span></h4>
+                        <label for="name">Full Name <span>*</span></label>
+                        <input name="name" required type="text" id="name" placeholder="Your name" style="display: block; margin-bottom: 15px; width: 100%;">
+                        <label for="email">Email <span>*</span></label>
+                        <input name="email" type="email" id="email" required placeholder="Your email" style="display: block; margin-bottom: 15px; width: 100%;">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" cols="30" rows="10" style="display: block; margin-bottom: 15px; width: 100%;"></textarea>
+                        <button type="submit" class="btn primary full" style="display: block; margin-top: 20px; width: 100%;">Send message</button>
+                    </form>
+                    <a href="mailto:social@kodland.org" id="send"></a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h2 class="section__title" style="color: #ffffff; margin-left: 55px;">
+                NE_PUPYRKA.RU
+            </h2>
+            <button id="open" class="open-menu">Open</button>
+            <nav class="nav" id="nav">
+                <button class="close-menu" id="close">Close</button>
+                <ul class="nav-list">
+                    <li><a href="#">Payments Methods</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Opt</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </main>
+</body>
+</html>
